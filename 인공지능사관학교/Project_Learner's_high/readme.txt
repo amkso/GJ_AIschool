@@ -11,4 +11,4 @@
 
 # 담당
   - 실시간 교차로 알고리즘 작성 및 pyQt로 시뮬레이션 제작
-  - Intersection.py, 
+  - final.py(시뮬레이션 부분), Intersection.py 작성
