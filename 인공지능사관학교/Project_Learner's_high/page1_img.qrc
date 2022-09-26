@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="background">
+    <file>adf.jpg</file>
+    <file>23406.jpg</file>
+    <file>2101.i101.026.mobile_gaming_isometric_set.jpg</file>
+    <file>ppppp.jpg</file>
+  </qresource>
+  <qresource prefix="icon">
+    <file>427025-PE8U02-59-removebg-preview.png</file>
+    <file>스크린샷_8_-removebg-preview (3).png</file>
+    <file>오른쪽.jpg</file>
+  </qresource>
+</RCC>

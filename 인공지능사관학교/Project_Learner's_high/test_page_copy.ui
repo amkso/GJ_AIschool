@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1369</width>
+    <height>861</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Learner's_cross</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image: </string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1131</width>
+      <height>811</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/background/2101.i101.026.mobile_gaming_isometric_set.jpg);</string>
+    </property>
+    <widget class="QLabel" name="label_pic1">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>531</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/background/adf.jpg)</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_pic2">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>30</y>
+       <width>531</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/background/adf.jpg);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_pic3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>420</y>
+       <width>531</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/background/adf.jpg);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_pic4">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>420</y>
+       <width>531</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/background/adf.jpg);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>0</y>
+      <width>241</width>
+      <height>811</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(47, 46, 52);</string>
+    </property>
+    <widget class="QPushButton" name="start_bt">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>560</y>
+       <width>161</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(120, 120, 120);
+font: 35pt &quot;Cooper Black&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>start</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button_next">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>700</y>
+       <width>161</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 50pt &quot;Arial&quot;;
+background-color: rgb(120, 120, 120);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>➜</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>-10</x>
+       <y>10</y>
+       <width>241</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/icon/스크린샷_8_-removebg-preview (3).png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1369</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="file">
+    <property name="title">
+     <string>파일</string>
+    </property>
+    <addaction name="action_open"/>
+    <addaction name="action_save"/>
+    <addaction name="action_close"/>
+   </widget>
+   <widget class="QMenu" name="edit">
+    <property name="title">
+     <string>편집</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="form">
+    <property name="title">
+     <string>서식</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="view">
+    <property name="title">
+     <string>보기</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="help">
+    <property name="title">
+     <string>도움말</string>
+    </property>
+   </widget>
+   <addaction name="file"/>
+   <addaction name="edit"/>
+   <addaction name="form"/>
+   <addaction name="view"/>
+   <addaction name="help"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_open">
+   <property name="text">
+    <string>열기</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="action_save">
+   <property name="text">
+    <string>저장</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="action_close">
+   <property name="text">
+    <string>끝내기</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="page1_img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="Intersection">
+    <file>Intersection_icon.png</file>
+    <file>intersection.jpg</file>
+  </qresource>
+  <qresource prefix="TrafficLight">
+    <file>TrafficLight/East/East_TrafficLight_Green.png</file>
+    <file>TrafficLight/East/East_TrafficLight_Red.png</file>
+    <file>TrafficLight/East/East_TrafficLight_Yellow.png</file>
+    <file>TrafficLight/North/North_TrafficLight_Green.png</file>
+    <file>TrafficLight/North/North_TrafficLight_Red.png</file>
+    <file>TrafficLight/North/North_TrafficLight_Yellow.png</file>
+    <file>TrafficLight/South/South_TrafficLight_Green.png</file>
+    <file>TrafficLight/South/South_TrafficLight_Red.png</file>
+    <file>TrafficLight/South/South_TrafficLight_Yellow.png</file>
+    <file>TrafficLight/West/West_TrafficLight_Green.png</file>
+    <file>TrafficLight/West/West_TrafficLight_Red.png</file>
+    <file>TrafficLight/West/West_TrafficLight_Yellow.png</file>
+  </qresource>
+</RCC>
