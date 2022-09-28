@@ -4,6 +4,3 @@
 
 # 실습환경
 - python3 with Anaconda - Jupiter Notebook
-
-# 0926
-- ch2 ~ ch3.2.5
